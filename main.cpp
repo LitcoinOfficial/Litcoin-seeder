@@ -386,7 +386,7 @@ extern "C" void* ThreadStats(void*) {
   } while(1);
 }
 
-static const string mainnet_seeds[] = {"mainnet.z.cash", "dnsseed.str4d.xyz", "dnsseed.znodes.org", ""};
+static const string mainnet_seeds[] = {"seeder.litcoinfoundation.com",""};
 static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
